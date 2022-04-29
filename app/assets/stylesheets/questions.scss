@@ -1,0 +1,58 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.body{
+  background-color: blue;
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 240px;
+  padding: 20px;
+  width: 320px;
+}
+
+#subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 30px;
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 30px;
+  margin-top: 28px;
+  // outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
+.grtxt {
+  color: lightgray;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
